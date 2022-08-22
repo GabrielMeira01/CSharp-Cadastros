@@ -1,0 +1,62 @@
+[
+  {
+    "outputFileName": "wwwroot/minificados/css/site.min.css",
+
+    "inputFiles": [
+      "wwwroot/css/site.css"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+
+  {
+    "outputFileName": "wwwroot/minificados/js/comum.min.js",
+    "inputFiles": [
+      "wwwroot/js/comum/comum.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+
+  {
+    "outputFileName": "wwwroot/minificados/js/clientes.min.js",
+    "inputFiles": [
+      "wwwroot/js/clientes/clientes.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+
+  {
+    "outputFileName": "wwwroot/minificados/js/produtos.min.js",
+    "inputFiles": [
+      "wwwroot/js/produtos/produtos.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+
+  {
+    "outputFileName": "wwwroot/minificados/js/pedidos.min.js",
+    "inputFiles": [
+      "wwwroot/js/pedidos/pedidos.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uUJz7tluyCsnS24MoBb3YbBLJW7D5uZbmYavH4OA7LQ=",
+  "Hash": "y0RRM0NXyAO3NWe7F1j8Yrq75AYh83pYBmC52fW64Zs=",
   "Source": "Cadastros",
   "BasePath": "_content/Cadastros",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Cadastros\\wwwroot",
       "Source": "Cadastros",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Cadastros.styles.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Cadastros.styles.css",
       "SourceId": "Cadastros",
       "SourceType": "Computed",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "Cadastros.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "P:\\Cadastros\\Cadastros\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Cadastros.styles.css"
+      "OriginalItemSpec": "P:\\CSharp-Cadastros\\Cadastros\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Cadastros.styles.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Cadastros.bundle.scp.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Cadastros.bundle.scp.css",
       "SourceId": "Cadastros",
       "SourceType": "Computed",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "Cadastros.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "P:\\Cadastros\\Cadastros\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Cadastros.bundle.scp.css"
+      "OriginalItemSpec": "P:\\CSharp-Cadastros\\Cadastros\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Cadastros.bundle.scp.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\css\\site.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\css\\site.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\favicon.ico",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\favicon.ico",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\js\\site.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\js\\clientes\\clientes.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
-      "RelativePath": "js/site.js",
+      "RelativePath": "js/clientes/clientes.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,13 +99,47 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\js\\clientes\\clientes.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\js\\pedidos\\pedidos.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
+      "BasePath": "_content/Cadastros",
+      "RelativePath": "js/pedidos/pedidos.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\pedidos\\pedidos.js"
+    },
+    {
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\js\\produtos\\produtos.js",
+      "SourceId": "Cadastros",
+      "SourceType": "Discovered",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
+      "BasePath": "_content/Cadastros",
+      "RelativePath": "js/produtos/produtos.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\produtos\\produtos.js"
+    },
+    {
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Cadastros",
+      "SourceType": "Discovered",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -119,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -136,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -153,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -170,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -187,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -204,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -221,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -238,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -255,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -272,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -289,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -306,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -323,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -340,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -357,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -374,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -391,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -408,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -425,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -442,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -459,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -476,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -493,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -510,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -527,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -544,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -561,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -578,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -595,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -612,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -629,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -646,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -663,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -680,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -697,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -714,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -731,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -748,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -765,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -782,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -799,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -816,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -833,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -850,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -867,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -884,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -901,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -918,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -935,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -952,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -969,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -986,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1003,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1020,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1037,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1054,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "P:\\Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Cadastros",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Cadastros\\Cadastros\\wwwroot\\",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
       "BasePath": "_content/Cadastros",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1069,6 +1103,91 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\minificados\\css\\comum.min.css",
+      "SourceId": "Cadastros",
+      "SourceType": "Discovered",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
+      "BasePath": "_content/Cadastros",
+      "RelativePath": "minificados/css/comum.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\minificados\\css\\comum.min.css"
+    },
+    {
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\minificados\\css\\site.min.css",
+      "SourceId": "Cadastros",
+      "SourceType": "Discovered",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
+      "BasePath": "_content/Cadastros",
+      "RelativePath": "minificados/css/site.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\minificados\\css\\site.min.css"
+    },
+    {
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\minificados\\js\\clientes.min.js",
+      "SourceId": "Cadastros",
+      "SourceType": "Discovered",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
+      "BasePath": "_content/Cadastros",
+      "RelativePath": "minificados/js/clientes.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\minificados\\js\\clientes.min.js"
+    },
+    {
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\minificados\\js\\pedidos.min.js",
+      "SourceId": "Cadastros",
+      "SourceType": "Discovered",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
+      "BasePath": "_content/Cadastros",
+      "RelativePath": "minificados/js/pedidos.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\minificados\\js\\pedidos.min.js"
+    },
+    {
+      "Identity": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\minificados\\js\\produtos.min.js",
+      "SourceId": "Cadastros",
+      "SourceType": "Discovered",
+      "ContentRoot": "P:\\CSharp-Cadastros\\Cadastros\\wwwroot\\",
+      "BasePath": "_content/Cadastros",
+      "RelativePath": "minificados/js/produtos.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\minificados\\js\\produtos.min.js"
     }
   ]
 }

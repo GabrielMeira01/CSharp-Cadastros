@@ -1,0 +1,67 @@
+﻿@model List<Cadastros.Models.ClienteDTO>
+@{
+    Layout = null;
+}
+@if (Model == null)
+{
+    <div class="card-body">
+        <h5 class="card-title">Erro - Algo inesperado aconteceu, tente novamente mais tarde!</h5>
+        <p class="card-text">Caso o erro volte a acontecer, procure o responsável.</p>
+    </div>
+}
+else
+{
+    <div class="card-body">
+        <div class="col-12">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nome</th>
+                            <th>CEP</th>
+                            <th>Logradouro</th>
+                            <th>Complemento</th>
+                            <th>Bairro</th>
+                            <th>Cidade</th>
+                            <th>UF</th>
+                            <th>Código do IBGE</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Codigo</td>
+                                <td>@item.Nome</td>
+                                <td>@item.CEP</td>
+                                <td>@item.Logradouro</td>
+                                <td>@item.Complemento</td>
+                                <td>@item.Bairro</td>
+                                <td>@item.Cidade</td>
+                                <td>@item.UF</td>
+                                <td>@item.CodigoIBGE</td>
+                                <td>
+                                    @using (Html.BeginForm("EditarCliente", "Cliente", FormMethod.Get))
+                                    {
+                                        <input type="hidden" id="editar-cliente" name="id" value="@item.Codigo" />
+                                        <button type="submit" class="btn btn-warning" onclick="javascript:location.reload()">Editar</button>
+                                    }
+                                </td>
+                                <td>
+                                    @using (Html.BeginForm("ExcluirCliente", "Cliente", FormMethod.Post))
+                                    {
+                                        <input type="hidden" id="excluir-cliente" name="id" value="@item.Codigo" />
+                                        <button type="submit" class="btn btn-danger" onclick="javascript:location.reload()">Excluir</button>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}

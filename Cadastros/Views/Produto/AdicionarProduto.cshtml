@@ -1,0 +1,37 @@
+﻿@model Cadastros.Models.ProdutoDTO
+@{
+    ViewData["Title"] = "Adicionar produto";
+}
+
+<div class="col-12" id="pagina-clientes">
+    <div class="card">
+        <div class="card-header">
+            Adicionar clientes
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("AdicionarProduto", "Produto", FormMethod.Post))
+            {
+                <div class="mb-3">
+                    <label class="form-label">Descrição</label>
+                    <input type="text" class="form-control descricao-produto" asp-for="@Model.Descricao" placeholder="Insira a descrição aqui" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Preço total</label>
+                    <input type="text" class="form-control precototal-produto" asp-for="@Model.PrecoUnitario" placeholder="Insira o preço total aqui" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Peso liquido</label>
+                    <input type="text" class="form-control pesoliquido-produto" asp-for="@Model.PesoLiquido" placeholder="Insira o peso liquido aqui" required>
+                </div>
+
+                <div class="mb-3">
+                    <button id="salva-produto" type="submit" class="btn btn-success">Salvar</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/minificados/js/produtos.min.js" asp-append-version="true"></script>
+}

@@ -1,0 +1,57 @@
+﻿@model Cadastros.Models.ClienteDTO
+@{
+    ViewData["Title"] = "Adicionar cliente";
+}
+
+<div class="col-12" id="pagina-clientes">
+    <div class="card">
+        <div class="card-header">
+            Adicionar clientes
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("AdicionarCliente", "Cliente", FormMethod.Post))
+            {
+                <div class="mb-3">
+                    <label class="form-label">Nome</label>
+                    <input type="text" class="form-control nome-cliente" asp-for="@Model.Nome" placeholder="Insira o nome aqui" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">CEP</label>
+                    <input type="text" class="form-control cep-cliente" asp-for="@Model.CEP" placeholder="Insira o CEP aqui" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Logradouro</label>
+                    <input type="text" class="form-control logradouro-cliente" asp-for="@Model.Logradouro" placeholder="Insira o logradouro aqui" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Complemento</label>
+                    <input type="text" class="form-control complemento-cliente" asp-for="@Model.Complemento" placeholder="Insira o complemento aqui">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Bairro</label>
+                    <input type="text" class="form-control bairro-cliente" asp-for="@Model.Bairro" placeholder="Insira o bairro aqui" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Cidade</label>
+                    <input type="text" class="form-control cidade-cliente" asp-for="@Model.Cidade" placeholder="Insira a cidade aqui" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">UF</label>
+                    <input type="text" class="form-control uf-cliente" asp-for="@Model.UF" placeholder="Insira o UF aqui" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Código IBGE</label>
+                    <input type="text" class="form-control cod-ibge-cliente" asp-for="@Model.CodigoIBGE" placeholder="Insira o código IBGE aqui" required>
+                </div>
+
+                <div class="mb-3">
+                    <button id="salva-cliente" type="submit" class="btn btn-success">Salvar</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/minificados/js/clientes.min.js" asp-append-version="true"></script>
+}

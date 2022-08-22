@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Produtos";
+}
+<div class="mb-3">
+    <button type="submit" class="btn btn-primary" onclick="location.href='/Produto/AdicionarProduto'">Adicionar novo produto</button>
+</div>
+<div class="card" id="pagina-produtos">
+    <div class="card-header">
+        Produtos
+    </div>
+    <div class="card-body">
+        <div class="d-flex justify-content-center loading">
+            <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/minificados/js/produtos.min.js" asp-append-version="true"></script>
+}

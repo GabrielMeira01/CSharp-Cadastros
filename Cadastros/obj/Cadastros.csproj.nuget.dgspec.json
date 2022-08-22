@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\Cadastros\\Cadastros\\Cadastros.csproj": {}
+    "P:\\CSharp-Cadastros\\Cadastros\\Cadastros.csproj": {}
   },
   "projects": {
-    "P:\\Cadastros\\Cadastros\\Cadastros.csproj": {
+    "P:\\CSharp-Cadastros\\Cadastros\\Cadastros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\Cadastros\\Cadastros\\Cadastros.csproj",
+        "projectUniqueName": "P:\\CSharp-Cadastros\\Cadastros\\Cadastros.csproj",
         "projectName": "Cadastros",
-        "projectPath": "P:\\Cadastros\\Cadastros\\Cadastros.csproj",
+        "projectPath": "P:\\CSharp-Cadastros\\Cadastros\\Cadastros.csproj",
         "packagesPath": "C:\\Users\\Gabriel Meira\\.nuget\\packages\\",
-        "outputPath": "P:\\Cadastros\\Cadastros\\obj\\",
+        "outputPath": "P:\\CSharp-Cadastros\\Cadastros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel Meira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "BuildBundlerMinifier": {
+              "target": "Package",
+              "version": "[3.2.449, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "toastr": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
